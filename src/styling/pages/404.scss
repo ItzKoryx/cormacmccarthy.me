@@ -1,0 +1,14 @@
+.error {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+
+    .status {
+        animation: jump .6s;
+    }
+
+    .info {
+        animation: jump .65s;
+    }
+}

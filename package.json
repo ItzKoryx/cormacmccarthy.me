@@ -1,0 +1,24 @@
+{
+	"private": true,
+	"type": "module",
+	"module": "src/App.tsx",
+	"imports": {
+		"#/*": "./src/*"
+	},
+	"scripts": {
+		"dev": "bunx --bun vite",
+		"build": "bunx --bun vite build",
+		"serve": "vite preview"
+	},
+	"dependencies": {
+		"@preact/compat": "^18.3.1",
+		"preact": "^10.25.3",
+		"preact-iso": "^2.8.1",
+		"react-wavify": "^1.11.1"
+	},
+	"devDependencies": {
+		"@preact/preset-vite": "^2.9.3",
+		"sass-embedded": "^1.83.1",
+		"vite": "^6.0.4"
+	}
+}

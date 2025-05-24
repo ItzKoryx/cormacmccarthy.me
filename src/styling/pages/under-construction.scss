@@ -1,0 +1,25 @@
+.under-construction {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    .header {
+        text-align: left;
+        animation: jump .6s;
+    }
+
+    .info {
+        text-align: left;
+        animation: jump .65s;
+    }
+}
+
+@media (max-width: 850px) {
+    #app .under-construction {
+        width: 100%;
+
+        .header, .info {
+            margin: 0 30px;
+        }
+    }
+}
